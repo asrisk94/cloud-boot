@@ -17,5 +17,62 @@ SLA (ServerLevel Agreement) : On demand 서비스 사용시 클라우드 컴퓨�
 
 --------------------------------------------------
 
-On-Premise
+On-Premise : 서버, DB, 네트워크 장비 등을 모두 구매해서 구축, 운영하는 서비스.
+
+클라우드 컴퓨팅 모델
+IaaS (Infrastructure as a Service) : 인프라를 서비스 형태로 제공. 서버, 스토리지, 네트워크 관련 각종 물리적 장비.
+PaaS (Platform as a Service) : 인프라에 설치되는 운영체제, 미들웨어, DB 관리 시스템 등의 소프트웨어 제공.
+SaaS (Software as a Service) : 응용 프로그램을 서비스 형태로 제공하는 것.
+
+--------------------------------------------------
+
+AWS (Amazon Web Service)
+
+컴퓨팅 서비스
+
+Amazon EC2 : 다양한 타입의 가상화 서버 지원. Windows, Linux, Aurora 등 지원
+Amazon Auto Scaling : 특정 조건에 따라 자동으로 서버 추가, 삭제하는 기능. (사용량에 따름)
+Amazon Lightsail : VPS (Virtual Private Server)는 웹사이트 및 웹 어플리케이션을 배포하거나 관리한다.
+Amazon Workspace : 데스크탑 가상화 서비스. 사내 PC를 가상화하고 개인 PC에 문서를 저장하지 않고 서버에 보관.
+
+네트워킹 서비스
+
+Amazon Route 53 : 클라우드 기반의 DNS
+Amazon VPN (Virtual Private Network) : 네트워크 접근제어, DHCP, VPN을 사용하여 가상 사설 네트워크 구성.
+AWS Direct Connect : AWS 연결하기 ㅜ이해 전용선을 구성하는 것. AWS-On-Premise를 연결.
+Amazon ELB (Elastic Load Balancer) : 네트워크 부하를 분산하기 위해서 L4 스위치 역할을 한다.
+
+스토리지 서비스
+
+Amazon S3 : 범용적 스토리지를 제공하는 서비스. 데이터 보관, 웹사이트 호스팅 등의 데이터 보관 및 관리.
+Amazon DynamoDB : NoSQL 서비스로 대용량 데이터 저장 및 분석 위한 서비스.
+Amazon ElasticCache : In-memory 기반의 Cache 서비스.
+
+
+
+분석 플랫폼
+
+Amazon Kinesis : 대규모 스트리밍 서비스를 위해 대량 데이터 저장 분류하는 서비스.
+Amazon RedShift : Data warehouse와 데이터 Lake를 지원하는 분석용 서버.
+Amazon EMR : 저장된 데이터를 분류하고 분석하는 서비스 제공.
+
+Amazon CloudSearch : 대량 데이터 검색할 수 있는 서비스. 정보를 모바일로 전달 가능.
+Amazon SES (Simple Email Services) : 외부로 대량 메일을 발송할 수 있는 서비스.
+Amazon Elastic Transcoder : 동영상 인코딩을 지원하는 서비스.
+
+-----------------------------------------------------------
+
+AWS Well-Architected 6대 원칙
+
+운영 우수성 원칙, 보안 원칙, 안정성 원칙, 성능 효율성 원칙, 비용 최적화 원칙, 지속 가능성 원칙
+
+
+
+
+
+
+
+
+
+
 
